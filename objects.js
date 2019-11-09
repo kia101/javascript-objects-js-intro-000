@@ -1,3 +1,7 @@
 var playlist = { "rock" : "roll"}
 
-function updatePlaylist
+function updatePlaylist (obj,key,value){
+
+
+  
+}
