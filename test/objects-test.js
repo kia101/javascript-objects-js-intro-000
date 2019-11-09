@@ -21,7 +21,7 @@ describe('objects', () => {
     expect(Object.keys(playlist).length).to.be.greaterThan(0)
   })
 
-  describe('updatePlaylist(playlist, artistName, songTitle)', () => {
+  xdescribe('updatePlaylist(playlist, artistName, songTitle)', () => {
     before(() => {
       playlist['Slowdive'] = 'Alison'
       playlist['My Bloody Valentine'] = 'Sometimes'
@@ -35,7 +35,7 @@ describe('objects', () => {
     })
   })
 
-  describe('removeFromPlaylist(playlist, artistName)', () => {
+  xdescribe('removeFromPlaylist(playlist, artistName)', () => {
     it('removes `artistName` from `playlist`', () => {
       removeFromPlaylist(playlist, 'Slowdive')
 
